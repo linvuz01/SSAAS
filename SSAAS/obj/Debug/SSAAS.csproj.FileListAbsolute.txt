@@ -160,3 +160,5 @@ C:\Users\vznlin001\Documents\SSAAS2\SSAAS\SSAAS\obj\Debug\SSAAS.csprojResolveAss
 C:\Users\vznlin001\Documents\SSAAS2\SSAAS\SSAAS\obj\Debug\SSAAS.dll
 C:\Users\vznlin001\Documents\SSAAS2\SSAAS\SSAAS\obj\Debug\SSAAS.pdb
 >>>>>>> 64ff00c34edf07eb02dc45491a81f4b318cb22b5
+C:\Users\vznlin001\Documents\SSAAS\SSAAS\SSAAS\obj\Debug\SSAAS.csprojResolveAssemblyReference.cache
+C:\Users\vznlin001\Documents\SSAAS\SSAAS\SSAAS\obj\Debug\SSAAS.dll
