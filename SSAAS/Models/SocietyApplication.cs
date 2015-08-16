@@ -7,6 +7,7 @@ namespace SSAAS.Models
 {
     public class SocietyApplication : Application
     {
+
         public string SocietyName { get; set; }
         public string ChairpersonName { get; set; }
         public string ChairpersonStudentNumber { get; set; }

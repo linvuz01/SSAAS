@@ -34,5 +34,13 @@ namespace SSAAS.Repository
             sqlConn.Close();
 
         }
+
+        public STFApplication getSTFApplication(string applicantName)
+        {
+            var _stfApplication = new STFApplication();
+
+            return _stfApplication;
+        }
+
     }
 }
