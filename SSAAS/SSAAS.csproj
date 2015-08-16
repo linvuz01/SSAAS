@@ -166,6 +166,8 @@
       <DependentUpon>SSAAS.mdf</DependentUpon>
     </Content>
     <Content Include="Contact.aspx" />
+    <Content Include="Content\bootstrap-original.css" />
+    <Content Include="Content\bootstrap-original.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
@@ -176,6 +178,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Account\Web.config" />
+    <Content Include="view\logo.gif" />
+    <Content Include="view\logo.png" />
+    <Content Include="Welcome.aspx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="PublicationApplication.aspx" />
     <Content Include="Register.aspx" />
@@ -212,7 +217,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Site.Master" />
-    <Content Include="SocietyApplication.aspx" />
+    <Content Include="SocietyRecognitionApplication.aspx" />
     <Content Include="SuccessfulRegistration.aspx" />
     <Content Include="TravelAssistanceFundApplication.aspx" />
     <Content Include="TravelFundApplication.aspx" />
@@ -372,7 +377,6 @@
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\Application.cs" />
-    <Compile Include="Models\ApplicationRepository.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\SFVSApplication.cs" />
     <Compile Include="Models\SocietyApplication.cs" />
@@ -397,6 +401,10 @@
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Repository\SFVSApplicationRepo.cs" />
+    <Compile Include="Repository\SocietyApplicationRepo.cs" />
+    <Compile Include="Repository\STAFApplicationRepo.cs" />
+    <Compile Include="Repository\STFApplicationRepo.cs" />
     <Compile Include="Repository\UserRepository.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -412,12 +420,12 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
-    <Compile Include="SocietyApplication.aspx.cs">
-      <DependentUpon>SocietyApplication.aspx</DependentUpon>
+    <Compile Include="SocietyRecognitionApplication.aspx.cs">
+      <DependentUpon>SocietyRecognitionApplication.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="SocietyApplication.aspx.designer.cs">
-      <DependentUpon>SocietyApplication.aspx</DependentUpon>
+    <Compile Include="SocietyRecognitionApplication.aspx.designer.cs">
+      <DependentUpon>SocietyRecognitionApplication.aspx</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
     <Compile Include="SuccessfulRegistration.aspx.cs">
@@ -454,6 +462,13 @@
     </Compile>
     <Compile Include="VisitingSpeakerApplication.aspx.designer.cs">
       <DependentUpon>VisitingSpeakerApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.aspx.cs">
+      <DependentUpon>Welcome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Welcome.aspx.designer.cs">
+      <DependentUpon>Welcome.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />
