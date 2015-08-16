@@ -1099,7 +1099,7 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-    width: 188px;
+    width: 190px;
     height: 32px;
 }
 a {
@@ -2257,9 +2257,10 @@ pre code {
 }
 table {
   background-color: transparent;
-    height: 6px;
-    width: 636px;
+    height: 308px;
+    width: 392px;
     margin-right: 0px;
+    margin-left: 15px;
 }
 caption {
   padding-top: 8px;

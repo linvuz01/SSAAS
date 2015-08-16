@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="Register.aspx.cs" Inherits="SSAAS.Register" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <!DOCTYPE html>
 
@@ -55,7 +56,7 @@
                 Password:
             </td>
             <td>
-                <input type="text" id="password" required="required"/>
+                <input type="password" id="password" required="required"/>
             </td>
         </tr>
         <tr>
@@ -63,14 +64,14 @@
                 Repeat Password:
             </td>
             <td>
-                <input type="text" id="rpassword" required="required"/>
+                <input type="password" id="rpassword" required="required"/>
             </td>
         </tr>
         <tr>
             <td>
             </td>
             <td>
-               <input type="submit" value="Submit" id="submit" />
+               <input type="submit" value="Submit" id="submit" runat="server" OnServerClick="AddNewUser" />
             </td>
         </tr>
         </table>

@@ -8,8 +8,6 @@ namespace SSAAS.Models
 {
     public class User
     {
-        [ScaffoldColumn(false)]
-        public int UserId { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
         public string Contact { get; set; }
