@@ -8,10 +8,9 @@ namespace SSAAS.Models
     public class Application
     {
         public int ApplicationId { get; set; }
-        public string ApplicantName { get; set; }
-        public string ApplicantContactNumber { get; set; }
-        public string ApplicantEmailAddress { get; set; }
-        public DateTime ApplicationDate { get; set; }
-        public string ApplicationStatus { get; set; }
+        public string Name { get; set; }
+        public string ContactNumber { get; set; }
+        public string EmailAddress { get; set; }
+        public DateTime Date { get; set; }
     } 
 }

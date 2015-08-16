@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using SSAAS.Models;
 
 namespace SSAAS.Models
 {
-    public class SFVSApplication : Application
+    public class SFVSApplication
     {
         public string EventName { get; set; }
         public DateTime DateOfEvent { get; set; }

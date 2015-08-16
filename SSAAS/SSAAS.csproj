@@ -166,8 +166,8 @@
       <DependentUpon>SSAAS.mdf</DependentUpon>
     </Content>
     <Content Include="Contact.aspx" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bootstrap-origional.css" />
+    <Content Include="Content\bootstrap-origional.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Login.aspx" />
@@ -371,15 +371,8 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Models\Application.cs" />
-    <Compile Include="Models\ApplicationRepository.cs" />
     <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Models\SFVSApplication.cs" />
-    <Compile Include="Models\SocietyApplication.cs" />
-    <Compile Include="Models\STAFApplication.cs" />
-    <Compile Include="Models\STFApplication.cs" />
     <Compile Include="Models\Student.cs" />
-    <Compile Include="Models\TravelApplication.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Models\UserContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

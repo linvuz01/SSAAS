@@ -11,7 +11,7 @@ namespace SSAAS
 {
 
 
-    public partial class Register
+    public partial class SocietyApplication
     {
 
         /// <summary>
