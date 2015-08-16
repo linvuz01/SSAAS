@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using SSAAS.Models;
 
 namespace SSAAS.Models
 {
-    public class TravelApplication: Application
+    public class TravelApplication
     {
         public string EventName { get; set; }
         public DateTime DateOfEvent { get; set; }
@@ -17,6 +16,7 @@ namespace SSAAS.Models
         public string Chairperson { get; set; }
         public string Secretery { get; set; }
         public string Society { get; set; }
+        public DateTime Date { get; set; }
         public string TravelCost { get; set; }
     }
 }

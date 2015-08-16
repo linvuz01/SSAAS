@@ -22,22 +22,22 @@ namespace SSAAS
         protected void addSocietyRecognitionApplication(Object sender, EventArgs e) 
         {
             var _application = new SocietyApplication();
-            _application.ApplicantName=Request["name"];
-            _application.ApplicantEmailAddress = Request["email"];
-            _application.ApplicantEmailAddress = Request["contactNumber"];
-            _application.SocietyName = Request["societyName"];
-            _application.ChairpersonName = Request["chairpersonName"];
-            _application.ChairpersonStudentNumber = Request["chairpersonStudentNumber"];
-            _application.ViceChairpersonName = Request["viceChairpersonName"];
-            _application.ViceChairpersonStudentNumber = Request["viceChairpersonStudentNumber"];
-            _application.SecretaryName = Request["secretaryName"];
-            _application.SecretaryStudentNumber = Request["secretaryStudentNumber"];
-            _application.TreasurerName = Request["treasurerName"];
-            _application.TreasurerStudentNumber = Request["treasurerStudentNumber"];
-            _application.ConstitutionFile = Request.MapPath("formaConstitution");
-            _application.ListOfStudentsFile = Request.MapPath("interestedStudents");
-            _application.ProgrammeOfActionFile = Request.MapPath("programmeOfAction");
-
+            _application.ApplicantName = name.Value;
+            _application.ApplicantContactNumber = contactNumber.Value;
+            _application.ApplicantEmailAddress = email.Value;
+            _application.SocietyName = societyName.Value;
+            _application.ChairpersonName = chairpersonName.Value;
+            _application.ChairpersonStudentNumber = chairpersonStudentNumber.Value;
+            _application.ViceChairpersonName = viceChairpersonName.Value;
+            _application.ViceChairpersonStudentNumber = viceChairpersonStudentNumber.Value;
+            _application.SecretaryName = secretaryName.Value;
+            _application.SecretaryStudentNumber = secretaryStudentNumber.Value;
+            _application.TreasurerName = treasurerName.Value;
+            _application.TreasurerStudentNumber = treasurerStudentNumber.Value;
+            _application.ConstitutionFile = formaConstitution.;
+            _application.ListOfStudentsFile = interestedStudents.PostedFile. FileName;
+            _application.ProgrammeOfActionFile = programmeOfAction.PostedFile.FileName;
+            
             _repo.addSocietyApplication(_application);
              
         }
