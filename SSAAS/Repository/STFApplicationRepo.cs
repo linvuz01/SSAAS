@@ -9,7 +9,7 @@ using System.Data;
 
 namespace SSAAS.Repository
 {
-    public class STFApplicationRepo
+    public class STFApplicationRepo : Application
     {
         string conn = ConfigurationManager.ConnectionStrings["SSAASConn"].ConnectionString;
 

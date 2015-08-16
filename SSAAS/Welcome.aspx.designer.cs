@@ -10,6 +10,6 @@
 namespace SSAAS {
     
     
-    public partial class TravelFundApplication {
+    public partial class Welcome {
     }
 }

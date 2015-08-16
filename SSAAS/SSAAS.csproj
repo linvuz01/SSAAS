@@ -166,8 +166,10 @@
       <DependentUpon>SSAAS.mdf</DependentUpon>
     </Content>
     <Content Include="Contact.aspx" />
-    <Content Include="Content\bootstrap-origional.css" />
-    <Content Include="Content\bootstrap-origional.min.css" />
+    <Content Include="Content\bootstrap-original.css" />
+    <Content Include="Content\bootstrap-original.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Login.aspx" />
@@ -176,6 +178,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Account\Web.config" />
+    <Content Include="view\logo.gif" />
+    <Content Include="view\logo.png" />
+    <Content Include="Welcome.aspx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="PublicationApplication.aspx" />
     <Content Include="Register.aspx" />
@@ -457,6 +462,13 @@
     </Compile>
     <Compile Include="VisitingSpeakerApplication.aspx.designer.cs">
       <DependentUpon>VisitingSpeakerApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.aspx.cs">
+      <DependentUpon>Welcome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Welcome.aspx.designer.cs">
+      <DependentUpon>Welcome.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

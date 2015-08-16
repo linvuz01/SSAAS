@@ -1,15 +1,19 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="TravelAssistanceFundApplication.aspx.cs" Inherits="SSAAS.TravelAssistanceFundApplication" %>
-
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="TravelAssistanceFundApplication.aspx.cs" Inherits="SSAAS.TravelAssistanceFundApplication" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<html>
+<head>
     <title></title>
     <link rel="stylesheet" href="Content/site.css"/>
 </head>
 <body>
-    <form id="form1" runat="server">
     <div class="application">
+    <div>
+          <h2><b>Travel Assistant Fund Application</b></h2>
+          <p>&nbsp;</p>
+    </div >
+
          <div>
         <table>
             <tr>
@@ -175,9 +179,7 @@
             rules and policies of the University.
 
         </p>
-
-
     </div>
-    </form>
 </body>
 </html>
+</asp:Content>
