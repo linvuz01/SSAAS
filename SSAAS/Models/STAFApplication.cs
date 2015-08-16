@@ -7,7 +7,6 @@ namespace SSAAS.Models
 {
     public class STAFApplication : TravelApplication
     {
-        public string TravelCost { get; set; }
         public string AdditionalFundsApplication1 { get; set; }
         public string AdditionalFundsApplication2 { get; set; }
         public string AdditionalFundsApplication3 { get; set; }

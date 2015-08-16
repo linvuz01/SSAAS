@@ -5,7 +5,7 @@ using System.Web;
 
 namespace SSAAS.Models
 {
-    public class TravelApplication
+    public class TravelApplication : Application
     {
         public string EventName { get; set; }
         public DateTime DateOfEvent { get; set; }
