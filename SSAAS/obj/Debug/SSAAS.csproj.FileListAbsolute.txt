@@ -102,3 +102,6 @@ C:\Users\vznlin001.CS\Documents\SSAAS\SSAAS\bin\Microsoft.Owin.Security.OAuth.xm
 C:\Users\vznlin001.CS\Documents\SSAAS\SSAAS\obj\Debug\SSAAS.csprojResolveAssemblyReference.cache
 C:\Users\vznlin001.CS\Documents\SSAAS\SSAAS\obj\Debug\SSAAS.dll
 C:\Users\vznlin001.CS\Documents\SSAAS\SSAAS\obj\Debug\SSAAS.pdb
+C:\Users\nqdlor001\Desktop\project\SSAAS\SSAAS\obj\Debug\SSAAS.csprojResolveAssemblyReference.cache
+C:\Users\nqdlor001\Desktop\project\SSAAS\SSAAS\obj\Debug\SSAAS.dll
+C:\Users\nqdlor001\Desktop\project\SSAAS\SSAAS\obj\Debug\SSAAS.pdb

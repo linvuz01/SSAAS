@@ -1,14 +1,15 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SocietyApplication.aspx.cs" Inherits="SSAAS.SocietyApplication" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="SocietyApplication.aspx.cs" Inherits="SSAAS.SocietyApplication" %>
 
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<head >
     <title></title>
     <link rel="stylesheet" href="Content/site.css"/>
 </head>
 <body>
-    <form id="form1" runat="server">
+
     <div class="application">
         <div>
         <table>
@@ -104,6 +105,7 @@
 
         </div>
     </div>
-    </form>
+
 </body>
 </html>
+</asp:Content>

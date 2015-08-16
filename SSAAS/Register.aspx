@@ -1,14 +1,13 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="SSAAS.Register" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="Register.aspx.cs" Inherits="SSAAS.Register" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+ <!DOCTYPE html>
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<html>
+<head >
     <title></title>
     <link rel="stylesheet" href="Content/site.css"/>
 </head>
 <body>
-    <form id="form1" runat="server">
     <div class="register">
         <table>
         <tr>
@@ -76,6 +75,6 @@
         </tr>
         </table>
     </div>
-    </form>
 </body>
 </html>
+</asp:Content>
