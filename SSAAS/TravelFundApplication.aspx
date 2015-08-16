@@ -1,16 +1,21 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="TravelFundApplication.aspx.cs" Inherits="SSAAS.TravelFundApplication" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="TravelFundApplication.aspx.cs" Inherits="SSAAS.TravelFundApplication" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <!DOCTYPE html>
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<html>
+<head>
     <title></title>
     <link rel="stylesheet" href="Content/site.css"/>
 </head>
 <body>
-    <form id="form1" runat="server">
+
     <div class="application">
-          <div>
+     <div>
+          <h2><b>Travel Assistant Fund Application</b></h2>
+          <p>&nbsp;</p>
+    </div >
+
+      <div>
         <table>
             <tr>
                 <b>Applicant Details</b>
@@ -140,12 +145,13 @@
             </tr>
             <tr>
                 <td>Registration Fees:</td>
-                <td><input type="date" id="registrationFees" required="required"/></td>
+                <td><input type="date" id="registrationFees" required="required"/><br />
+                </td>
             </tr>
         </table>
         </div>
 
-
+        <p></p>
         <div>
         <table>
             <tr>
@@ -187,7 +193,7 @@
         </table>
         </div>
 
-
+        <p></p>
         <div>
         <table>
             <tr>
@@ -232,7 +238,9 @@
             </tr>
         </table>
         </div>
+        <p>
 
+        </p>
 
           <p>
             I, <input type="text" id="fullName" required="required" placeholder="Full Name"/> certify that all figures, information and <br />
@@ -244,9 +252,7 @@
             rules and policies of the University.
 
         </p>
-
-
     </div>
-    </form>
 </body>
 </html>
+</asp:Content>

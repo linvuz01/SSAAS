@@ -1,16 +1,21 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="VisitingSpeakerApplication.aspx.cs" Inherits="SSAAS.VisitingSpeakerApplication" %>
-
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="VisitingSpeakerApplication.aspx.cs" Inherits="SSAAS.VisitingSpeakerApplication" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<html>
+<head>
     <title></title>
     <link rel="stylesheet" href="Content/site.css"/>
 </head>
 <body>
-    <form id="form1" runat="server">
+
+
     <div class="application">
-            <div>
+    <div>
+          <h2><b>Visiting Speaker Fund Application</b></h2>
+    </div >
+
+     <div>
         <table>
             <tr>
                 <b>Applicant Details</b>
@@ -173,6 +178,6 @@
         </p>
 
     </div>
-    </form>
 </body>
 </html>
+</asp:Content>

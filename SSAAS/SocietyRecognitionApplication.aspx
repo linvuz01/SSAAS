@@ -1,40 +1,33 @@
-<<<<<<< HEAD:SSAAS/SocietyApplication.aspx
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="SocietyApplication.aspx.cs" Inherits="SSAAS.SocietyApplication" %>
-=======
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SocietyRecognitionApplication.aspx.cs" Inherits="SSAAS.SocietyRecognitionApplication" %>
->>>>>>> 64ff00c34edf07eb02dc45491a81f4b318cb22b5:SSAAS/SocietyRecognitionApplication.aspx
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="SocietyRecognitionApplication.aspx.cs" Inherits="SSAAS.SocietyRecognitionApplication" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-<!DOCTYPE html>
+    <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head >
+<html>
+<head>
     <title></title>
-    <link rel="stylesheet" href="Content/site.css"/>
+     <link rel="stylesheet" href="Content/site.css"/>
 </head>
 <body>
-<<<<<<< HEAD:SSAAS/SocietyApplication.aspx
-
-=======
-    <form id="form1" runat="server" method="post">
->>>>>>> 64ff00c34edf07eb02dc45491a81f4b318cb22b5:SSAAS/SocietyRecognitionApplication.aspx
     <div class="application">
+    <div>
+          <h2><b>Society Registration Application Form</b></h2>
+          <p>&nbsp;</p>
+    </div >
         <div>
+            <h4><b>Applicant Details</b></h4>
         <table>
-            <tr>
-                <b>Applicant Details</b>
-            </tr>
             <tr>
                 <td>Name:</td>
                 <td><input type="text" id="name" required="required" runat="server"/></td>
             </tr>
             <tr>
-                <td>Student Number:</td>
-                <td><input type="text" id="studentnumber" required="required" runat="server"/></td>
+                <td style="height: 28px">Student Number:</td>
+                <td style="height: 28px"><input type="text" id="studentnumber" required="required" runat="server"/></td>
             </tr>
             <tr>
-                <td>Email:</td>
-                <td><input type="email" id="email" required="required" runat="server"/></td>
+                <td style="height: 21px">Email:</td>
+                <td style="height: 21px"><input type="email" id="email" required="required" runat="server"/></td>
             </tr>
             <tr>
                 <td>Contact Number:</td>
@@ -43,17 +36,16 @@
         </table>
         </div>
         <div>
+            <p></p>
+            <h4><b>Prospective Society Details</b></h4>
        <table>
-            <tr>
-                <b>Prospective Society Details</b>
-            </tr>
             <tr>
                 <td>Name of prospective Society:</td>
                 <td><input type="text" id="societyName" required="required" runat="server"/></td>
             </tr>
         </table>
         </div>
-
+        <p></p>
         <div>
        <table style="border-color:black; border-style:double">
            <tr>
@@ -82,24 +74,25 @@
                <td><input type="text" id="treasurerStudentNumber" required="required" runat="server"/></td>
             </tr>
         </table>
-                <div>
+        <p></p><p></p>
+           
+        <div>
+            <h4><b>Supporting Documents</b></h4>
         <table>
             <tr>
-                <b>Supporting Documents</b>
-            </tr>
-            <tr>
                 <td>1. A Pro Forma Constitution for the Prospective Society</td>
-                <td><input type="file" id="formaConstitution" name="formaConstitution" accept=".docx" size="50"  required="required" runat="server"/></td>
+                <td style="width: 179px"><input type="file" id="formaConstitution" name="formaConstitution" accept=".docx"   required="required" runat="server"/></td>
             </tr>
             <tr>
                 <td>2. A list of  fifty interested students</td>
-                <td><input type="file" id="interestedStudents" accept=".docx" required="required" runat="server"/></td>
+                <td style="width: 179px"><input type="file" id="interestedStudents" accept=".docx" required="required" runat="server"/></td>
             </tr>
             <tr>
                 <td>3. A Proposed Programme of Action</td>
-                <td><input type="file" id="programmeOfAction" accept=".docx" required="required" runat="server"/></td>
+                <td style="width: 179px"><input type="file" id="programmeOfAction" accept=".docx" required="required" runat="server"/></td>
             </tr>
         </table>
+            <p></p><p></p>
         </div>
 
             <p style="border:dotted">
@@ -110,7 +103,7 @@
                     <input type="checkbox" name="vehicle" value="Bike" /> Verify
                 
             </p>
-
+            <p></p>
             <input type="submit" value="Apply" id="apply"  runat="server" OnServerClick="addSocietyRecognitionApplication"/>
         </div>
     </div>

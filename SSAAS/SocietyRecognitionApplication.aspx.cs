@@ -24,7 +24,7 @@ namespace SSAAS
             var _application = new SocietyApplication();
             _application.ApplicantName=Request["name"];
             _application.ApplicantEmailAddress = Request["email"];
-            _application.ApplicantContactNumber = Request["contactNumber"];
+            _application.ApplicantEmailAddress = Request["contactNumber"];
             _application.SocietyName = Request["societyName"];
             _application.ChairpersonName = Request["chairpersonName"];
             _application.ChairpersonStudentNumber = Request["chairpersonStudentNumber"];

@@ -1099,6 +1099,8 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+    width: 188px;
+    height: 32px;
 }
 a {
   color: #2780e3;
@@ -2255,6 +2257,9 @@ pre code {
 }
 table {
   background-color: transparent;
+    height: 6px;
+    width: 636px;
+    margin-right: 0px;
 }
 caption {
   padding-top: 8px;

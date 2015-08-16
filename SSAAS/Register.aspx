@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="Register.aspx.cs" Inherits="SSAAS.Register" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
- <!DOCTYPE html>
+    <!DOCTYPE html>
 
 <html>
 <head >

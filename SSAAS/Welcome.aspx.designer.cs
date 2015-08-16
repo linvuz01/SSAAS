@@ -10,6 +10,6 @@
 namespace SSAAS {
     
     
-    public partial class SocietyApplication {
+    public partial class Welcome {
     }
 }
