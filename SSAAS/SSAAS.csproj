@@ -371,8 +371,14 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Models\Application.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\SFVSApplication.cs" />
+    <Compile Include="Models\SocietyApplication.cs" />
+    <Compile Include="Models\STAFApplication.cs" />
+    <Compile Include="Models\STFApplication.cs" />
     <Compile Include="Models\Student.cs" />
+    <Compile Include="Models\TravelApplication.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Models\UserContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -453,7 +459,9 @@
       <DependentUpon>VisitingSpeakerApplication.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="DataFile\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
