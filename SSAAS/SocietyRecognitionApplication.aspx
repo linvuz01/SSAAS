@@ -1,23 +1,13 @@
-<<<<<<< HEAD:SSAAS/SocietyApplication.aspx
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="SocietyApplication.aspx.cs" Inherits="SSAAS.SocietyApplication" %>
-=======
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SocietyRecognitionApplication.aspx.cs" Inherits="SSAAS.SocietyRecognitionApplication" %>
->>>>>>> 64ff00c34edf07eb02dc45491a81f4b318cb22b5:SSAAS/SocietyRecognitionApplication.aspx
-
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="SocietyRecognitionApplication.aspx.cs" Inherits="SSAAS.SocietyRecognitionApplication" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head >
     <title></title>
     <link rel="stylesheet" href="Content/site.css"/>
 </head>
 <body>
-<<<<<<< HEAD:SSAAS/SocietyApplication.aspx
-
-=======
-    <form id="form1" runat="server" method="post">
->>>>>>> 64ff00c34edf07eb02dc45491a81f4b318cb22b5:SSAAS/SocietyRecognitionApplication.aspx
     <div class="application">
         <div>
         <table>
@@ -89,7 +79,7 @@
             </tr>
             <tr>
                 <td>1. A Pro Forma Constitution for the Prospective Society</td>
-                <td><input type="file" id="formaConstitution" name="formaConstitution" accept=".docx" size="50"  required="required" runat="server"/></td>
+                <td><input type="file" id="formaConstitution" accept=".docx"  required="required" runat="server"/></td>
             </tr>
             <tr>
                 <td>2. A list of  fifty interested students</td>

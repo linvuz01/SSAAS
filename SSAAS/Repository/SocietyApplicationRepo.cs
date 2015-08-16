@@ -16,9 +16,8 @@ namespace SSAAS.Repository
         public SocietyApplicationRepo() { }
 
         public void addSocietyApplication(SocietyApplication app) {
-            string _queryString = "INSERT INTO STFApplication () VALUES('" +
-              app.ApplicantName + "'" + "," + "'" + app.ApplicantContactNumber + "'" + "," + "'" + app.ApplicantEmailAddress + "'" + "," + "'" + app.ApplicationDate + "'" +
-              "," + "'" + app.ApplicationStatus + "'" + "," + "'" + app.SocietyName + "'" + "," + "'" + app.ChairpersonName + "'" + "," + app.ChairpersonStudentNumber +
+            string _queryString = "INSERT INTO SocietyApplication (ApplicantName,ApplicantContactNumber, ApplicantEmailAddress,ApplicantDate,ApplicationStatus,app.SocietyName,app.ChairpersonName,app.ChairpersonStudentNumber,app.ViceChairpersonName,app.ViceChairpersonStudentNumber,app.SecretaryName,app.SecretaryStudentNumber,app.TreasurerName,app.TreasurerStudentNumber,app.ConstitutionFile,app.ListOfStudentsFile,app.ProgrammeOfActionFile) VALUES('" +
+              app.ApplicantName + "'" + "," + "'" + app.ApplicantContactNumber + "'" + "," + "'" + app.ApplicantEmailAddress + "'" + "," + "'" + app.ApplicationDate + "'" + "," + "'" + app.ApplicationStatus + "'" + "," + "'" + app.SocietyName + "'" + "," + "'" + app.ChairpersonName + "'" + "," + app.ChairpersonStudentNumber +
               "'" + "," + "'" + app.ViceChairpersonName + "'" + "," + "'" + app.ViceChairpersonStudentNumber + "'" + "," + "'" + app.SecretaryName + "'" + "," + "'" + app.SecretaryStudentNumber + "'" + "," + "'" + app.TreasurerName + "'" + "," + "'" +
               app.TreasurerStudentNumber + "'" + "," + "'" + app.ConstitutionFile + "'" + "," + "'" + app.ListOfStudentsFile + "'" + "," + "'" + app.ProgrammeOfActionFile + "')";
 
