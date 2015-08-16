@@ -16,7 +16,7 @@
                 Name:
             </td>
             <td>
-                <input type="text" id="name" required="required"/>
+                <input type="text" id="name" required="required" runat="server"/>
             </td>
         </tr>
         <tr>
@@ -24,7 +24,7 @@
                 Surname:
             </td>
             <td>
-                <input type="text" id="surname" required="required"/>
+                <input type="text" id="surname" required="required" runat="server"/>
             </td>
         </tr>
         <tr>
@@ -32,7 +32,7 @@
                 Contact:
             </td>
             <td>
-                <input type="text" id="contact" required="required"/>
+                <input type="text" id="contact" required="required" runat="server"/>
             </td>
         </tr>
         <tr>
@@ -40,7 +40,7 @@
                 Email:
             </td>
             <td>
-                <input type="text" id="email" required="required"/>
+                <input type="text" id="email" required="required" runat="server"/>
             </td>
         </tr>
         <tr>
@@ -48,7 +48,7 @@
                 Username:
             </td>
             <td>
-                <input type="text" id="username" required="required"/>
+                <input type="text" id="username" required="required" runat="server"/>
             </td>
         </tr>
         <tr>
@@ -56,7 +56,7 @@
                 Password:
             </td>
             <td>
-                <input type="password" id="password" required="required"/>
+                <input type="password" id="password" required="required" runat="server"/>
             </td>
         </tr>
         <tr>
@@ -64,17 +64,13 @@
                 Repeat Password:
             </td>
             <td>
-                <input type="password" id="rpassword" required="required"/>
-            </td>
-        </tr>
-        <tr>
-            <td>
-            </td>
-            <td>
-               <input type="submit" value="Submit" id="submit" runat="server" OnServerClick="AddNewUser" />
+                <input type="password" id="rpassword" required="required" runat="server"/>
             </td>
         </tr>
         </table>
+
+        <input type="submit" value="Submit" id="submit" runat="server" OnServerClick="AddNewUser" />
+
     </div>
 </body>
 </html>

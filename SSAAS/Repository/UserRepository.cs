@@ -41,11 +41,28 @@ namespace SSAAS.Repository
             sqlConn.Open();
             SqlCommand cmd = new SqlCommand(query, sqlConn);
             SqlDataReader reader = cmd.ExecuteReader();
-            
-            DataTable dt = new DataTable();
-            dt.Load(reader);
-            sqlConn.Close();
-            
+
+            int id;
+            string name;
+
+
+            if (reader.HasRows)
+            {
+                while (reader.Read())
+                {
+                    _user.Name = reader.GetString(1);
+                    _user.Surname = reader.GetString(2);
+                    _user.Contact = reader.GetString(3);
+                    _user.Email = reader.GetString(4);
+                    _user.Username = reader.GetString(5);
+                    _user.Password = reader.GetString(6);
+
+                }
+            }
+            else
+            {
+                Console.WriteLine("No rows found.");
+            }
 
             return _user;
         }

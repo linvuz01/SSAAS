@@ -22,13 +22,12 @@ namespace SSAAS
         protected void AddNewUser(object sender, EventArgs e) {
 
             var _user = new User();
-            var t2 = Request.MapPath("name");
-            _user.Name =  Request.Params["name"];  //name.Value;
-            _user.Surname = Request.Params["surname"];  ////surname.Value;
-            _user.Contact = Request.Params["contact"];///contact.Value;
-            _user.Email = Request.Params["email"];//email.Value;
-            _user.Username = Request.Params["username"]; ///username.Value;
-            _user.Password = Request.Params["password"];//password.Value;
+            _user.Name =  name.Value;
+            _user.Surname = surname.Value;
+            _user.Contact = contact.Value;
+            _user.Email = email.Value;
+            _user.Username = username.Value;
+            _user.Password = password.Value;
 
 
             UserRepo.addUser(_user);

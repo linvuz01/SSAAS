@@ -16,7 +16,7 @@
                 Username:
             </td>
             <td>
-                <input type="text" id="username"/>
+                <input type="text" id="username" runat="server"/>
             </td>
         </tr>
         <tr>
@@ -24,14 +24,14 @@
                 Password:
             </td>
             <td>
-                <input type="password" id="password"/>
+                <input type="password" id="password" runat="server"/>
             </td>
         </tr>
         <tr>
             <td>
             </td>
             <td>
-               <input type="submit" value="Login" id="login" />
+               <input type="submit" value="Login" id="login" runat="server" OnServerClick="isValidUser"/>
             </td>
         </tr>
         </table>

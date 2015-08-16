@@ -99,9 +99,6 @@
                 I have read and understood the criteria and process for the recognition of a society. I have provided <br />
                 the accurate details and information for my prospective society. I have provided the necessary <br />
                 accompanying documentation. 
-                
-                    <input type="checkbox" name="vehicle" value="Bike" /> Verify
-                
             </p>
             <p></p>
             <input type="submit" value="Apply" id="apply"  runat="server" OnServerClick="addSocietyRecognitionApplication"/>
