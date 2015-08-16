@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SocietyApplication.aspx.cs" Inherits="SSAAS.SocietyApplication" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SocietyRecognitionApplication.aspx.cs" Inherits="SSAAS.SocietyRecognitionApplication" %>
 
 <!DOCTYPE html>
 
@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="Content/site.css"/>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form1" runat="server" method="post">
     <div class="application">
         <div>
         <table>
@@ -17,19 +17,19 @@
             </tr>
             <tr>
                 <td>Name:</td>
-                <td><input type="text" id="name" required="required"/></td>
+                <td><input type="text" id="name" required="required" runat="server"/></td>
             </tr>
             <tr>
                 <td>Student Number:</td>
-                <td><input type="text" id="studentnumber" required="required"/></td>
+                <td><input type="text" id="studentnumber" required="required" runat="server"/></td>
             </tr>
             <tr>
                 <td>Email:</td>
-                <td><input type="email" id="email" required="required"/></td>
+                <td><input type="email" id="email" required="required" runat="server"/></td>
             </tr>
             <tr>
                 <td>Contact Number:</td>
-                <td><input type="tel" id="contactNumber" required="required"/></td>
+                <td><input type="tel" id="contactNumber" required="required" runat="server"/></td>
             </tr>
         </table>
         </div>
@@ -40,7 +40,7 @@
             </tr>
             <tr>
                 <td>Name of prospective Society:</td>
-                <td><input type="text" id="societyName" required="required"/></td>
+                <td><input type="text" id="societyName" required="required" runat="server"/></td>
             </tr>
         </table>
         </div>
@@ -54,23 +54,23 @@
            </tr>
            <tr>
                <td>Chairperson</td>
-               <td><input type="text" id="chairpersonName" required="required"/></td>
-               <td><input type="text" id="chairpersonStudentNumber" required="required"/></td>
+               <td><input type="text" id="chairpersonName" required="required" runat="server"/></td>
+               <td><input type="text" id="chairpersonStudentNumber" required="required" runat="server"/></td>
             </tr>
            <tr>
                <td>Vice Chairperson</td>
-               <td><input type="text" id="viceChairpersonName" required="required"/></td>
-               <td><input type="text" id="viceChairpersonStudentNumber" required="required"/></td>
+               <td><input type="text" id="viceChairpersonName" required="required" runat="server"/></td>
+               <td><input type="text" id="viceChairpersonStudentNumber" required="required" runat="server"/></td>
             </tr>
            <tr>
                <td>Secretary</td>
-               <td><input type="text" id="secretaryName" required="required"/></td>
-               <td><input type="text" id="secretaryStudentNumber" required="required"/></td>
+               <td><input type="text" id="secretaryName" required="required" runat="server"/></td>
+               <td><input type="text" id="secretaryStudentNumber" required="required" runat="server"/></td>
             </tr>
            <tr>
                <td>Treasurer</td>
-               <td><input type="text" id="treasurerName" required="required"/></td>
-               <td><input type="text" id="treasurerStudentNumber" required="required"/></td>
+               <td><input type="text" id="treasurerName" required="required" runat="server"/></td>
+               <td><input type="text" id="treasurerStudentNumber" required="required" runat="server"/></td>
             </tr>
         </table>
                 <div>
@@ -80,15 +80,15 @@
             </tr>
             <tr>
                 <td>1. A Pro Forma Constitution for the Prospective Society</td>
-                <td><input type="file" value="upload" name="formaConstitution" accept="image/*" required="required"/></td>
+                <td><input type="file" id="formaConstitution" name="formaConstitution" accept=".docx" size="50"  required="required" runat="server"/></td>
             </tr>
             <tr>
                 <td>2. A list of  fifty interested students</td>
-                <td><input type="file" value="upload" name="interestedStudents" accept="image/*" required="required"/></td>
+                <td><input type="file" id="interestedStudents" accept=".docx" required="required" runat="server"/></td>
             </tr>
             <tr>
                 <td>3. A Proposed Programme of Action</td>
-                <td><input type="file" value="upload" name="programmeOfAction" accept="image/*" required="required"/></td>
+                <td><input type="file" id="programmeOfAction" accept=".docx" required="required" runat="server"/></td>
             </tr>
         </table>
         </div>
@@ -102,6 +102,7 @@
                 
             </p>
 
+            <input type="submit" value="Apply" id="apply"  runat="server" OnServerClick="addSocietyRecognitionApplication"/>
         </div>
     </div>
     </form>
