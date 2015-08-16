@@ -212,7 +212,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Site.Master" />
-    <Content Include="SocietyApplication.aspx" />
+    <Content Include="SocietyRecognitionApplication.aspx" />
     <Content Include="SuccessfulRegistration.aspx" />
     <Content Include="TravelAssistanceFundApplication.aspx" />
     <Content Include="TravelFundApplication.aspx" />
@@ -397,6 +397,10 @@
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Repository\SFVSApplicationRepo.cs" />
+    <Compile Include="Repository\SocietyApplicationRepo.cs" />
+    <Compile Include="Repository\STAFApplicationRepo.cs" />
+    <Compile Include="Repository\STFApplicationRepo.cs" />
     <Compile Include="Repository\UserRepository.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -412,12 +416,12 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
-    <Compile Include="SocietyApplication.aspx.cs">
-      <DependentUpon>SocietyApplication.aspx</DependentUpon>
+    <Compile Include="SocietyRecognitionApplication.aspx.cs">
+      <DependentUpon>SocietyRecognitionApplication.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="SocietyApplication.aspx.designer.cs">
-      <DependentUpon>SocietyApplication.aspx</DependentUpon>
+    <Compile Include="SocietyRecognitionApplication.aspx.designer.cs">
+      <DependentUpon>SocietyRecognitionApplication.aspx</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
     <Compile Include="SuccessfulRegistration.aspx.cs">
